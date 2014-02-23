@@ -1,0 +1,122 @@
+body {
+    font-family: FreeMono, monospace;
+    background: url(../img/carbon.png);
+}
+a {
+    text-decoration: none;
+    color: #A3F0FF;
+}
+a:hover {
+    color: #2EADC5;
+}
+.stresser {
+    display: block;
+    margin-bottom: 40px;
+}
+#container {
+    width: 960px;
+    margin: 70px auto 0 auto;
+}
+.headimg {
+    display: block;
+    margin: 0 auto 50px auto;
+}
+.stats-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.stats {
+    font-size: 15px;
+    color: #A3F0FF;
+    display: inline;
+    margin: 0 15px;
+}
+.stats span {
+    color: #00ee11;
+}
+#terminal {
+    border: 1px solid #888;
+    margin-bottom: 50px;
+    clear: both;
+}
+.form-input {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.copyright {
+    font-size: 16px;
+    color: #c0c0c0;
+    text-align: center;
+}
+.terminal .clipboard {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.01;
+    filter: alpha(opacity = 0.01);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.01);
+    width: 2px;
+}
+.cmd > .clipboard {
+    position: fixed;
+}
+.terminal {
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    color: #A3F0FF;
+    background-color: #000;
+    font-size: 14px;
+    line-height: 16px;
+}
+.cmd {
+    padding: 0;
+    margin: 0;
+    height: 1.3em;
+}
+#donate {
+    text-align: center;
+}
+.terminal .terminal-output div div, .terminal .prompt {
+    display: block;
+    line-height: 16px;
+    height: 16px;
+}
+.terminal .terminal-output div span {
+    display: inline-block;
+}
+.terminal .cmd span {
+    display: inline-block;
+}
+.terminal .cmd span.inverted {
+    background-color: #aaa;
+    color: #000;
+}
+.terminal .terminal-output div div::-moz-selection, .terminal .terminal-output div span::-moz-selection {
+    background-color: #aaa;
+    color: #000;
+}
+.terminal .terminal-output div div::selection, .terminal .terminal-output div span::selection,
+.terminal .cmd > span::selection, .terminal .prompt span::selection {
+    background-color: #aaa;
+    color: #000;
+}
+.terminal .terminal-output div.error, .terminal .terminal-output div.error div {
+    color: red;
+}
+.tilda {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1100;
+}
+.clear {
+    clear: both;
+}
+.terminal a {
+    color: #0F60FF;
+}
+.terminal a:hover {
+    color: red;
+}
